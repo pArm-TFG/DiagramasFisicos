@@ -1,4 +1,4 @@
-update=21/03/2020 12:47:47
+update=25/03/2020 12:24:46
 version=1
 last_client=kicad
 [cvpcb]
@@ -22,7 +22,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=../DiagramaLogicoFisico.net
+LastNetListRead=DiagramaLogicoFisico.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
