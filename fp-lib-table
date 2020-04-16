@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name dsPIC)(type KiCad)(uri /usr/share/kicad/2020-02-18_11-04-36/footprints.pretty)(options "")(descr ""))
+  (lib (name Logo)(type KiCad)(uri ${KIPRJMOD}/Logo.pretty)(options "")(descr ""))
 )
