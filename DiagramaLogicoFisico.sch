@@ -33,7 +33,7 @@ Wire Wire Line
 Wire Wire Line
 	19800 11900 19800 11650
 $Comp
-L Device:R R15
+L DiagramaLogicoFisico-rescue:R-Device R15
 U 1 1 5EA0CFA9
 P 19800 11500
 F 0 "R15" H 19870 11546 50  0000 L CNN
@@ -44,7 +44,7 @@ F 3 "~" H 19800 11500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L DiagramaLogicoFisico-rescue:R-Device R1
 U 1 1 5E722A02
 P 15700 9550
 F 0 "R1" H 15770 9596 50  0000 L CNN
@@ -76,7 +76,7 @@ Wire Wire Line
 Wire Wire Line
 	14150 11400 14150 11500
 $Comp
-L power:GND #PWR0101
+L DiagramaLogicoFisico-rescue:GND-power #PWR0101
 U 1 1 5E88DDED
 P 14150 11400
 F 0 "#PWR0101" H 14150 11150 50  0001 C CNN
@@ -87,7 +87,7 @@ F 3 "" H 14150 11400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:CP1 C1
+L DiagramaLogicoFisico-rescue:CP1-Device C1
 U 1 1 5E88CB39
 P 14150 11750
 F 0 "C1" H 14035 11704 50  0000 R CNN
@@ -98,7 +98,7 @@ F 3 "~" H 14150 11750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3.3V #PWR0115
+L DiagramaLogicoFisico-rescue:+3.3V-power #PWR0115
 U 1 1 5E7D1F3B
 P 16550 13650
 F 0 "#PWR0115" H 16550 13500 50  0001 C CNN
@@ -109,7 +109,7 @@ F 3 "" H 16550 13650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0114
+L DiagramaLogicoFisico-rescue:GND-power #PWR0114
 U 1 1 5E7D0D32
 P 16250 13650
 F 0 "#PWR0114" H 16250 13400 50  0001 C CNN
@@ -120,7 +120,7 @@ F 3 "" H 16250 13650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0113
+L DiagramaLogicoFisico-rescue:+3.3V-power #PWR0113
 U 1 1 5E81BB22
 P 16050 15100
 F 0 "#PWR0113" H 16050 14950 50  0001 C CNN
@@ -133,7 +133,7 @@ $EndComp
 Wire Wire Line
 	16050 15100 16200 15100
 $Comp
-L Device:R R2
+L DiagramaLogicoFisico-rescue:R-Device R2
 U 1 1 5E723556
 P 15900 9550
 F 0 "R2" H 15970 9596 50  0000 L CNN
@@ -144,7 +144,7 @@ F 3 "~" H 15900 9550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0104
+L DiagramaLogicoFisico-rescue:GND-power #PWR0104
 U 1 1 5E542BDD
 P 16900 16300
 F 0 "#PWR0104" H 16900 16050 50  0001 C CNN
@@ -155,7 +155,7 @@ F 3 "" H 16900 16300 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L power:+3.3V #PWR0105
+L DiagramaLogicoFisico-rescue:+3.3V-power #PWR0105
 U 1 1 5E5477B6
 P 16800 16200
 F 0 "#PWR0105" H 16800 16050 50  0001 C CNN
@@ -166,7 +166,7 @@ F 3 "" H 16800 16200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J5
+L DiagramaLogicoFisico-rescue:Conn_01x05-Connector_Generic J5
 U 1 1 5E53B068
 P 16900 16600
 F 0 "J5" H 16818 16175 50  0000 C CNN
@@ -197,7 +197,7 @@ Wire Wire Line
 Wire Wire Line
 	16300 13250 16300 13300
 $Comp
-L Device:C C6
+L DiagramaLogicoFisico-rescue:C-Device C6
 U 1 1 5E7DB13D
 P 16400 13450
 F 0 "C6" H 16515 13496 50  0000 L CNN
@@ -218,7 +218,7 @@ Wire Wire Line
 Wire Wire Line
 	18250 11450 18250 11400
 $Comp
-L Device:C C8
+L DiagramaLogicoFisico-rescue:C-Device C8
 U 1 1 5E7C5DD4
 P 18400 11550
 F 0 "C8" H 18515 11596 50  0000 L CNN
@@ -243,7 +243,7 @@ Wire Wire Line
 Wire Wire Line
 	16300 10050 16300 10000
 $Comp
-L Device:C C5
+L DiagramaLogicoFisico-rescue:C-Device C5
 U 1 1 5E794CBB
 P 16400 9950
 F 0 "C5" H 16515 9996 50  0000 L CNN
@@ -254,7 +254,7 @@ F 3 "~" H 16400 9950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0108
+L DiagramaLogicoFisico-rescue:+3.3V-power #PWR0108
 U 1 1 5E60F525
 P 16250 9850
 F 0 "#PWR0108" H 16250 9700 50  0001 C CNN
@@ -265,7 +265,7 @@ F 3 "" H 16250 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0111
+L DiagramaLogicoFisico-rescue:GND-power #PWR0111
 U 1 1 5E62CC50
 P 16550 9850
 F 0 "#PWR0111" H 16550 9600 50  0001 C CNN
@@ -296,7 +296,7 @@ Wire Wire Line
 Wire Wire Line
 	15900 9000 15900 9400
 $Comp
-L Device:R R3
+L DiagramaLogicoFisico-rescue:R-Device R3
 U 1 1 5E725740
 P 16100 9550
 F 0 "R3" H 16170 9596 50  0000 L CNN
@@ -327,7 +327,7 @@ Wire Wire Line
 Wire Wire Line
 	15150 13900 15150 14300
 $Comp
-L Connector_Generic:Conn_01x04 J4
+L DiagramaLogicoFisico-rescue:Conn_01x04-Connector_Generic J4
 U 1 1 5E6EF778
 P 15250 14500
 F 0 "J4" H 15330 14492 50  0000 L CNN
@@ -356,7 +356,7 @@ Wire Wire Line
 Wire Wire Line
 	14600 13800 14600 12650
 $Comp
-L power:GND #PWR0112
+L DiagramaLogicoFisico-rescue:GND-power #PWR0112
 U 1 1 5E62F152
 P 18400 11400
 F 0 "#PWR0112" H 18400 11150 50  0001 C CNN
@@ -367,7 +367,7 @@ F 3 "" H 18400 11400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0109
+L DiagramaLogicoFisico-rescue:+3.3V-power #PWR0109
 U 1 1 5E620108
 P 18400 11700
 F 0 "#PWR0109" H 18400 11550 50  0001 C CNN
@@ -383,7 +383,7 @@ Wire Wire Line
 Wire Wire Line
 	18350 9100 18350 9700
 $Comp
-L Device:Crystal Y1
+L DiagramaLogicoFisico-rescue:Crystal-Device Y1
 U 1 1 5E5BF228
 P 20500 11500
 F 0 "Y1" H 20500 11768 50  0000 C CNN
@@ -394,7 +394,7 @@ F 3 "~" H 20500 11500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C4
+L DiagramaLogicoFisico-rescue:C-Device C4
 U 1 1 5E5BF22E
 P 20650 11900
 F 0 "C4" H 20765 11946 50  0000 L CNN
@@ -405,7 +405,7 @@ F 3 "~" H 20650 11900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0107
+L DiagramaLogicoFisico-rescue:GND-power #PWR0107
 U 1 1 5E5BF234
 P 21550 11000
 F 0 "#PWR0107" H 21550 10750 50  0001 C CNN
@@ -429,7 +429,7 @@ Wire Wire Line
 Wire Wire Line
 	20500 11350 20500 11050
 $Comp
-L Device:C C3
+L DiagramaLogicoFisico-rescue:C-Device C3
 U 1 1 5E5BF246
 P 20650 11050
 F 0 "C3" H 20765 11096 50  0000 L CNN
@@ -451,7 +451,7 @@ Wire Wire Line
 Wire Wire Line
 	19350 9700 19750 9700
 $Comp
-L power:GND #PWR0106
+L DiagramaLogicoFisico-rescue:GND-power #PWR0106
 U 1 1 5E5A4799
 P 19750 9500
 F 0 "#PWR0106" H 19750 9250 50  0001 C CNN
@@ -466,7 +466,7 @@ Wire Wire Line
 Wire Wire Line
 	18400 9500 18750 9500
 $Comp
-L Device:LED D3
+L DiagramaLogicoFisico-rescue:LED-Device D3
 U 1 1 5E59369A
 P 19200 9700
 F 0 "D3" H 19193 9445 50  0000 C CNN
@@ -477,7 +477,7 @@ F 3 "~" H 19200 9700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D2
+L DiagramaLogicoFisico-rescue:LED-Device D2
 U 1 1 5E591027
 P 18900 9500
 F 0 "D2" H 18893 9245 50  0000 C CNN
@@ -488,7 +488,7 @@ F 3 "~" H 18900 9500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D1
+L DiagramaLogicoFisico-rescue:LED-Device D1
 U 1 1 5E588349
 P 18600 9400
 F 0 "D1" H 18593 9145 50  0000 C CNN
@@ -499,7 +499,7 @@ F 3 "~" H 18600 9400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J2
+L DiagramaLogicoFisico-rescue:Conn_01x03-Connector_Generic J2
 U 1 1 5E54CA6A
 P 13350 10650
 F 0 "J2" H 13430 10692 50  0000 L CNN
@@ -510,7 +510,7 @@ F 3 "~" H 13350 10650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0103
+L DiagramaLogicoFisico-rescue:GND-power #PWR0103
 U 1 1 5E554843
 P 13650 10400
 F 0 "#PWR0103" H 13650 10150 50  0001 C CNN
@@ -525,7 +525,7 @@ Wire Wire Line
 Wire Wire Line
 	13650 10550 13550 10550
 $Comp
-L Connector_Generic:Conn_01x03 J3
+L DiagramaLogicoFisico-rescue:Conn_01x03-Connector_Generic J3
 U 1 1 5E55105D
 P 13350 11000
 F 0 "J3" H 13430 11042 50  0000 L CNN
@@ -565,7 +565,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 9050 10650 9050
 $Comp
-L Connector_Generic:Conn_01x02 J1
+L DiagramaLogicoFisico-rescue:Conn_01x02-Connector_Generic J1
 U 1 1 5EA81FF7
 P 10850 9150
 F 0 "J1" H 10930 9142 50  0000 L CNN
@@ -579,7 +579,7 @@ Connection ~ 9350 13050
 Connection ~ 9350 11750
 Connection ~ 9350 10350
 $Comp
-L Device:R R6
+L DiagramaLogicoFisico-rescue:R-Device R6
 U 1 1 5E802A42
 P 9350 9650
 F 0 "R6" H 9420 9696 50  0000 L CNN
@@ -590,7 +590,7 @@ F 3 "~" H 9350 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R5
+L DiagramaLogicoFisico-rescue:R-Device R5
 U 1 1 5E7D6096
 P 9350 9250
 F 0 "R5" H 9420 9296 50  0000 L CNN
@@ -637,7 +637,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 11650 7050 11650
 $Comp
-L power:+3.3V #PWR0122
+L DiagramaLogicoFisico-rescue:+3.3V-power #PWR0122
 U 1 1 5E906013
 P 10350 14300
 F 0 "#PWR0122" H 10350 14150 50  0001 C CNN
@@ -679,7 +679,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 11550 6450 11550
 $Comp
-L Connector_Generic:Conn_01x02 J6
+L DiagramaLogicoFisico-rescue:Conn_01x02-Connector_Generic J6
 U 1 1 5E83A5B1
 P 6050 11650
 F 0 "J6" H 6130 11642 50  0000 L CNN
@@ -690,7 +690,7 @@ F 3 "~" H 6050 11650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0119
+L DiagramaLogicoFisico-rescue:GND-power #PWR0119
 U 1 1 5E823902
 P 9350 13900
 F 0 "#PWR0119" H 9350 13650 50  0001 C CNN
@@ -701,7 +701,7 @@ F 3 "" H 9350 13900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R12
+L DiagramaLogicoFisico-rescue:R-Device R12
 U 1 1 5E8238F8
 P 9350 13650
 F 0 "R12" H 9420 13696 50  0000 L CNN
@@ -723,7 +723,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 13050 9350 13050
 $Comp
-L Device:R R11
+L DiagramaLogicoFisico-rescue:R-Device R11
 U 1 1 5E8238E6
 P 9350 13250
 F 0 "R11" H 9420 13296 50  0000 L CNN
@@ -745,7 +745,7 @@ F 3 "" H 8700 13100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0118
+L DiagramaLogicoFisico-rescue:GND-power #PWR0118
 U 1 1 5E8238D1
 P 9350 12600
 F 0 "#PWR0118" H 9350 12350 50  0001 C CNN
@@ -756,7 +756,7 @@ F 3 "" H 9350 12600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R10
+L DiagramaLogicoFisico-rescue:R-Device R10
 U 1 1 5E8238C7
 P 9350 12350
 F 0 "R10" H 9420 12396 50  0000 L CNN
@@ -778,7 +778,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 11750 9350 11750
 $Comp
-L Device:R R9
+L DiagramaLogicoFisico-rescue:R-Device R9
 U 1 1 5E8238B5
 P 9350 11950
 F 0 "R9" H 9420 11996 50  0000 L CNN
@@ -800,7 +800,7 @@ F 3 "" H 8700 11800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0117
+L DiagramaLogicoFisico-rescue:GND-power #PWR0117
 U 1 1 5E81AC95
 P 9350 11200
 F 0 "#PWR0117" H 9350 10950 50  0001 C CNN
@@ -811,7 +811,7 @@ F 3 "" H 9350 11200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R8
+L DiagramaLogicoFisico-rescue:R-Device R8
 U 1 1 5E81AC8B
 P 9350 10950
 F 0 "R8" H 9420 10996 50  0000 L CNN
@@ -833,7 +833,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 10350 9350 10350
 $Comp
-L Device:R R7
+L DiagramaLogicoFisico-rescue:R-Device R7
 U 1 1 5E81AC79
 P 9350 10550
 F 0 "R7" H 9420 10596 50  0000 L CNN
@@ -857,7 +857,7 @@ $EndComp
 Wire Wire Line
 	9350 9800 9350 9850
 $Comp
-L power:GND #PWR0116
+L DiagramaLogicoFisico-rescue:GND-power #PWR0116
 U 1 1 5E8034F0
 P 9350 9900
 F 0 "#PWR0116" H 9350 9650 50  0001 C CNN
@@ -891,7 +891,7 @@ F 3 "" H 8700 9100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J7
+L DiagramaLogicoFisico-rescue:Conn_01x02-Connector_Generic J7
 U 1 1 5EB11B49
 P 10850 10450
 F 0 "J7" H 10930 10442 50  0000 L CNN
@@ -902,7 +902,7 @@ F 3 "~" H 10850 10450 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J8
+L DiagramaLogicoFisico-rescue:Conn_01x02-Connector_Generic J8
 U 1 1 5EB1E032
 P 10850 11850
 F 0 "J8" H 10930 11842 50  0000 L CNN
@@ -937,7 +937,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 13150 10650 13150
 $Comp
-L Device:R R4
+L DiagramaLogicoFisico-rescue:R-Device R4
 U 1 1 5E81C5AF
 P 16350 15100
 F 0 "R4" H 16420 15146 50  0000 L CNN
@@ -948,7 +948,7 @@ F 3 "~" H 16350 15100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J9
+L DiagramaLogicoFisico-rescue:Conn_01x02-Connector_Generic J9
 U 1 1 5EB2A570
 P 10850 13150
 F 0 "J9" H 10930 13142 50  0000 L CNN
@@ -974,7 +974,7 @@ Wire Wire Line
 	16700 13250 16700 15100
 Connection ~ 16700 15100
 $Comp
-L Connector_Generic:Conn_01x04 J10
+L DiagramaLogicoFisico-rescue:Conn_01x04-Connector_Generic J10
 U 1 1 5EB8B1CB
 P 17150 14750
 F 0 "J10" H 17230 14742 50  0000 L CNN
@@ -985,7 +985,7 @@ F 3 "~" H 17150 14750 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR0102
+L DiagramaLogicoFisico-rescue:GND-power #PWR0102
 U 1 1 5ED1E4A7
 P 18500 13850
 F 0 "#PWR0102" H 18500 13600 50  0001 C CNN
@@ -1007,7 +1007,7 @@ F 3 "" H 16700 11850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R19
+L DiagramaLogicoFisico-rescue:R-Device R19
 U 1 1 5ED562FD
 P 17900 13500
 F 0 "R19" H 17970 13546 50  0000 L CNN
@@ -1039,7 +1039,7 @@ Wire Wire Line
 Wire Wire Line
 	18300 13850 18300 14000
 $Comp
-L Device:R R18
+L DiagramaLogicoFisico-rescue:R-Device R18
 U 1 1 5ED485EB
 P 17900 13750
 F 0 "R18" H 17970 13796 50  0000 L CNN
@@ -1050,7 +1050,7 @@ F 3 "~" H 17900 13750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R17
+L DiagramaLogicoFisico-rescue:R-Device R17
 U 1 1 5ED3A919
 P 17900 14000
 F 0 "R17" H 17970 14046 50  0000 L CNN
@@ -1061,7 +1061,7 @@ F 3 "~" H 17900 14000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R16
+L DiagramaLogicoFisico-rescue:R-Device R16
 U 1 1 5ED2CC60
 P 17900 14250
 F 0 "R16" H 17970 14296 50  0000 L CNN
@@ -1132,7 +1132,7 @@ Connection ~ 17500 14250
 Wire Wire Line
 	17500 14250 17500 13250
 $Comp
-L Connector_Generic:Conn_01x04 J11
+L DiagramaLogicoFisico-rescue:Conn_01x04-Connector_Generic J11
 U 1 1 5F10BC75
 P 11300 14350
 F 0 "J11" H 11380 14342 50  0000 L CNN
@@ -1164,7 +1164,7 @@ Wire Wire Line
 	10900 14150 10900 14250
 Connection ~ 10900 14250
 $Comp
-L Regulator_Linear:L7805 U1
+L DiagramaLogicoFisico-rescue:L7805-Regulator_Linear U1
 U 1 1 5F1886FD
 P 8150 14300
 F 0 "U1" H 8150 14542 50  0000 C CNN
@@ -1175,7 +1175,7 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0120
+L DiagramaLogicoFisico-rescue:GND-power #PWR0120
 U 1 1 5E830F1E
 P 8150 15200
 F 0 "#PWR0120" H 8150 14950 50  0001 C CNN
@@ -1188,7 +1188,7 @@ $EndComp
 Wire Wire Line
 	7050 15100 7650 15100
 $Comp
-L Device:C C2
+L DiagramaLogicoFisico-rescue:C-Device C2
 U 1 1 5F1E9FE0
 P 7650 14500
 F 0 "C2" H 7765 14546 50  0000 L CNN
@@ -1216,7 +1216,7 @@ Connection ~ 8150 15100
 Wire Wire Line
 	8150 15100 8600 15100
 $Comp
-L Device:C C7
+L DiagramaLogicoFisico-rescue:C-Device C7
 U 1 1 5F24027D
 P 8600 14500
 F 0 "C7" H 8715 14546 50  0000 L CNN
@@ -1235,7 +1235,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 15100 8150 15200
 $Comp
-L Regulator_Linear:AZ1117-3.3 U7
+L DiagramaLogicoFisico-rescue:AZ1117-3.3-Regulator_Linear U7
 U 1 1 5F2DEE47
 P 9850 14300
 F 0 "U7" H 9850 14542 50  0000 C CNN
@@ -1246,7 +1246,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 9850 14300 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L DiagramaLogicoFisico-rescue:C-Device C9
 U 1 1 5F305B75
 P 9050 14500
 F 0 "C9" H 9165 14546 50  0000 L CNN
@@ -1278,7 +1278,7 @@ Wire Wire Line
 	10150 14300 10350 14300
 Connection ~ 10350 14300
 $Comp
-L Device:C C10
+L DiagramaLogicoFisico-rescue:C-Device C10
 U 1 1 5F41553C
 P 10350 14550
 F 0 "C10" H 10465 14596 50  0000 L CNN
